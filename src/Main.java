@@ -11,13 +11,15 @@ public class Main {
         String firstName = "Ivanov";
         String secondName = "Ivan";
         String lastName = "Ivanovich";
-        System.out.println("Ф.И.О. сотрудника - " + firstName + " " + secondName + " " + lastName);
+        String fullName = firstName + " " + secondName + " " + lastName;
+        System.out.println("Ф.И.О. сотрудника - " + fullName);
+//        System.out.println("Ф.И.О. сотрудника - " + firstName + " " + secondName + " " + lastName);
 
         // Task 2
         System.out.println(" Task 2 ");
 
-        String fullName = "Ivanov Ivan Ivanovich";
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+        String fullName2 = "Ivanov Ivan Ivanovich";
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName2.toUpperCase());
 //        fullName = "IVANOV IVAN IVANOVICH";
 //        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName);
 
